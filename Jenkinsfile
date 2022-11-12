@@ -25,4 +25,8 @@ pipeline {
       }
     }
   }
+  post {
+    always {
+      echo "display output message"
+  }
 }
